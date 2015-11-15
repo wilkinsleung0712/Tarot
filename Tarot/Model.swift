@@ -9,24 +9,26 @@
 import Foundation
 
 class Model{
-    var answer = ["Go forth with faith","Magic is on your side", "Plant the seed and it will grow"];
+    let majorArcanaCards:[String:MajorArcanaCard];
+    var currentCard:MajorArcanaCard = MajorArcanaCard.Fool;
 
-    init(){
-        // add an element to the end of the array
-        answer.append("Look to the stars to find your answer");
-        //insert an element at a specified index of the array
-        //all other element are moved forward one position
-        answer.insert("You cannot do this alone", atIndex: 3);
-        //Remove an element at a specified index of the array
-        //all other element are moved backward one position
-        answer.removeAtIndex(4);
-        //Remove the last element
-        answer.removeLast();
-
+    init() {
+        //calling to init an dictionary of enum
+       majorArcanaCards = MajorArcanaCard.createDeck();
     }
 
+    //Return the Oracle's response(message) to the question posed by the user.
     func response()->String{
-        let response = Int(arc4random_uniform(UInt32(answer.count)));
-        return answer[response];
+//        //Return a random integer within the range of indexes for the answers array.
+//        let response = Int(arc4random_uniform(UInt32(majorArcanaCards.count)));
+//        //Convert the values in the dictionary to an Array and retrieve the value at the specified index.
+//        let message = Array(majorArcanaCards.values)[response];
+//        currentCardImageName = Array(majorArcanaCards.keys)[response] + ".jpg";
+//        return message;
+
+        let response = Int(arc4random_uniform(UInt32(majorArcanaCards.count)));
+        //setup the current card
+        currentCard = Array(majorArcanaCards.values)[response];
+        return currentCard.interpretation;
     }
 }

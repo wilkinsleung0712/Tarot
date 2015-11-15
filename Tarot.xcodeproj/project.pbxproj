@@ -15,7 +15,6 @@
 		A158CCDE1BF4BEDA001FADDA /* TarotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A158CCDD1BF4BEDA001FADDA /* TarotTests.swift */; };
 		A158CCE91BF4BEDA001FADDA /* TarotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A158CCE81BF4BEDA001FADDA /* TarotUITests.swift */; };
 		A158CCFB1BF4CAF6001FADDA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A158CCFA1BF4CAF6001FADDA /* Model.swift */; };
-		A1866ECB1BF6108D00136D9C /* C714F6E9-F547-47FE-98C0-49C59A52BCE0.png in Resources */ = {isa = PBXBuildFile; fileRef = A1866ECA1BF6108D00136D9C /* C714F6E9-F547-47FE-98C0-49C59A52BCE0.png */; };
 		A1CAE53A1BF776C30030BBBC /* World.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1CAE5241BF776C30030BBBC /* World.jpg */; };
 		A1CAE53B1BF776C30030BBBC /* WheelOfFortune.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1CAE5251BF776C30030BBBC /* WheelOfFortune.jpg */; };
 		A1CAE53C1BF776C30030BBBC /* Tower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1CAE5261BF776C30030BBBC /* Tower.jpg */; };
@@ -38,6 +37,7 @@
 		A1CAE54D1BF776C30030BBBC /* Devil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1CAE5371BF776C30030BBBC /* Devil.jpg */; };
 		A1CAE54E1BF776C30030BBBC /* Death.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1CAE5381BF776C30030BBBC /* Death.jpg */; };
 		A1CAE54F1BF776C30030BBBC /* Chariot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A1CAE5391BF776C30030BBBC /* Chariot.jpg */; };
+		A1CAE5511BF884050030BBBC /* MajorArcanaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CAE5501BF884050030BBBC /* MajorArcanaCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,6 @@
 		A158CCE81BF4BEDA001FADDA /* TarotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarotUITests.swift; sourceTree = "<group>"; };
 		A158CCEA1BF4BEDA001FADDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A158CCFA1BF4CAF6001FADDA /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		A1866ECA1BF6108D00136D9C /* C714F6E9-F547-47FE-98C0-49C59A52BCE0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "C714F6E9-F547-47FE-98C0-49C59A52BCE0.png"; path = "../../../../../../Users/WEIQIANGLIANG/Desktop/C714F6E9-F547-47FE-98C0-49C59A52BCE0.png"; sourceTree = "<group>"; };
 		A1CAE5241BF776C30030BBBC /* World.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = World.jpg; path = "../../../../../../Users/WEIQIANGLIANG/Google Drive/ios/ios/lecture/week1/tarotImages(2)/World.jpg"; sourceTree = "<group>"; };
 		A1CAE5251BF776C30030BBBC /* WheelOfFortune.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WheelOfFortune.jpg; path = "../../../../../../Users/WEIQIANGLIANG/Google Drive/ios/ios/lecture/week1/tarotImages(2)/WheelOfFortune.jpg"; sourceTree = "<group>"; };
 		A1CAE5261BF776C30030BBBC /* Tower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tower.jpg; path = "../../../../../../Users/WEIQIANGLIANG/Google Drive/ios/ios/lecture/week1/tarotImages(2)/Tower.jpg"; sourceTree = "<group>"; };
@@ -95,6 +94,7 @@
 		A1CAE5371BF776C30030BBBC /* Devil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Devil.jpg; path = "../../../../../../Users/WEIQIANGLIANG/Google Drive/ios/ios/lecture/week1/tarotImages(2)/Devil.jpg"; sourceTree = "<group>"; };
 		A1CAE5381BF776C30030BBBC /* Death.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Death.jpg; path = "../../../../../../Users/WEIQIANGLIANG/Google Drive/ios/ios/lecture/week1/tarotImages(2)/Death.jpg"; sourceTree = "<group>"; };
 		A1CAE5391BF776C30030BBBC /* Chariot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Chariot.jpg; path = "../../../../../../Users/WEIQIANGLIANG/Google Drive/ios/ios/lecture/week1/tarotImages(2)/Chariot.jpg"; sourceTree = "<group>"; };
+		A1CAE5501BF884050030BBBC /* MajorArcanaCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorArcanaCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,7 +200,6 @@
 				A1CAE5371BF776C30030BBBC /* Devil.jpg */,
 				A1CAE5381BF776C30030BBBC /* Death.jpg */,
 				A1CAE5391BF776C30030BBBC /* Chariot.jpg */,
-				A1866ECA1BF6108D00136D9C /* C714F6E9-F547-47FE-98C0-49C59A52BCE0.png */,
 			);
 			name = MarjorArcana;
 			sourceTree = "<group>";
@@ -209,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				A158CCFA1BF4CAF6001FADDA /* Model.swift */,
+				A1CAE5501BF884050030BBBC /* MajorArcanaCard.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -331,7 +331,6 @@
 				A1CAE5421BF776C30030BBBC /* Magician.jpg in Resources */,
 				A1CAE5431BF776C30030BBBC /* Lovers.jpg in Resources */,
 				A1CAE53F1BF776C30030BBBC /* Strength.jpg in Resources */,
-				A1866ECB1BF6108D00136D9C /* C714F6E9-F547-47FE-98C0-49C59A52BCE0.png in Resources */,
 				A1CAE54A1BF776C30030BBBC /* Fool.jpg in Resources */,
 				A1CAE54F1BF776C30030BBBC /* Chariot.jpg in Resources */,
 				A1CAE5441BF776C30030BBBC /* Justice.jpg in Resources */,
@@ -376,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A158CCFB1BF4CAF6001FADDA /* Model.swift in Sources */,
+				A1CAE5511BF884050030BBBC /* MajorArcanaCard.swift in Sources */,
 				A158CCCB1BF4BEDA001FADDA /* ViewController.swift in Sources */,
 				A158CCC91BF4BEDA001FADDA /* AppDelegate.swift in Sources */,
 			);
